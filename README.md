@@ -25,10 +25,13 @@ virustotal:
 被动和主动两种方式
 ```
 subdomain run  -d example.com -w subdict.txt
+-d: 指定域名
+-w: 字典文件
 ```
 多个域名
 ```
 subdomain run  -d example.com -w subdict.txt -f target.txt
+-f: 目标域名文件
 ```
 只使用被动的方式
 ```
