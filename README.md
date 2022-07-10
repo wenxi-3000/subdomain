@@ -1,5 +1,5 @@
 # subdomain
-通过接口和dns爆破获取子域名
+通过接口和dns爆破获取子域名, dns爆破部分参考了[dnsbrute](https://github.com/Q2h1Cg/dnsbrute.git)的设计，对其进行了优化。
 
 # 配置文件
 请新建一个config.yaml文件，在config.yaml中配置key
